@@ -1,0 +1,19 @@
+“Mi Recetario” es una aplicación móvil desarrollada en Android Studio que permite a los usuarios registrar, organizar y consultar recetas de cocina.
+Cada receta incluye un nombre, descripción, ingredientes, pasos de preparación, categoría (por ejemplo: postre, almuerzo, bebida) y una foto que puede tomarse con la cámara o seleccionarse desde la galería.
+La app muestra una lista de recetas con buscador integrado, permitiendo filtrar por nombre o tipo de receta.
+Está pensada tanto para uso personal como para pequeños negocios o emprendimientos gastronómicos que deseen llevar un control digital de sus platillos.
+
+////////////////////////////////////////////////////////////
+
+Principales funcionalidades:
+•	CRUD de recetas: crear, ver, editar y eliminar registros.
+•	Buscador: filtrar recetas por nombre o categoría.
+•	Cámara / galería: agregar foto del platillo.
+•	Descripción: mostrar ingredientes, pasos y fotografía.
+Se puede agregar un apartado diferente entre tipo y ingredientes para también buscar por ingredientes
+
+<img width="463" height="777" alt="image" src="https://github.com/user-attachments/assets/5403aaaf-4e34-4f15-abf5-bab82c6b145e" />
+
+<img width="488" height="789" alt="image" src="https://github.com/user-attachments/assets/0856f337-79e4-40e0-b738-0bf4fca9116c" />
+
+<img width="463" height="784" alt="image" src="https://github.com/user-attachments/assets/e030c37d-9472-424a-90f8-22ed73a07036" />
