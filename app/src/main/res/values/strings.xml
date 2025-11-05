@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="txtIngredientes">ingredientes</string>
+    <string name="txtCategory">categoria</string>
+    <string name="txtID">id</string>
+    <string name="txtdescription">descripcion</string>
+    <string name="txtSteps">Pasos</string>
+    <string name="txtName">nombre</string>
+    <string name="ErrorMsgGetByID">error con el id</string>
+    <string name="MsgDataNotFound">no se encontro</string>
+    <string name="ErrorMsgGetByName">no se encontro el nombre</string>
+    <string name="ErrorMsgSearch">Error al buscar</string>
+    <string name="ErrorMsgGetAll">errro al agregar</string>
+    <string name="ErrorMsgAdd">error al agregar</string>
+    <string name="ErrorMsgUpdate">Error al actualizar</string>
+    <string name="btnSave">Guardar</string>
 </resources>

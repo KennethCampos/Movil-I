@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="txtIngredientes">ingredients</string>
+    <string name="txtCategory">Category</string>
+    <string name="txtID">ID</string>
+    <string name="txtdescription">description</string>
+    <string name="txtSteps">steps</string>
+    <string name="txtName">name</string>
+    <string name="ErrorMsgGetByID">error get id</string>
+    <string name="MsgDataNotFound">"error "</string>
+    <string name="ErrorMsgGetByName">error get name</string>
+    <string name="ErrorMsgSearch">error search</string>
+    <string name="ErrorMsgGetAll">error getall</string>
+    <string name="ErrorMsgAdd">error add</string>
+    <string name="ErrorMsgUpdate">error update</string>
+    <string name="btnSave">save</string>
+</resources>
