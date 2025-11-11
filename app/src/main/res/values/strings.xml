@@ -14,4 +14,12 @@
     <string name="ErrorMsgAdd">error al agregar</string>
     <string name="ErrorMsgUpdate">Error al actualizar</string>
     <string name="btnSave">Guardar</string>
+    <string name="txt_btnSave">Guardar</string>
+    <string name="txt_btnDelete">borrar</string>
+    <string name="txt_btnCancel">cancelar</string>
+    <string name="ErrorMsgRemove">error al borrar</string>
+    <string name="TextYes">Sí</string>
+    <string name="TextNo">No</string>
+    <string name="TextTitleDialogQuestion">Confirmación</string>
+    <string name="btnListRecipe">Agregar Recetas</string>
 </resources>

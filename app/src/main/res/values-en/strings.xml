@@ -15,4 +15,12 @@
     <string name="ErrorMsgAdd">error add</string>
     <string name="ErrorMsgUpdate">error update</string>
     <string name="btnSave">save</string>
+    <string name="txt_btnSave">save</string>
+    <string name="txt_btnDelete">detele</string>
+    <string name="txt_btnCancel">cancel</string>
+    <string name="ErrorMsgRemove">error delete</string>
+    <string name="TextYes">yes</string>
+    <string name="TextNo">no</string>
+    <string name="TextTitleDialogQuestion">confirm</string>
+    <string name="btnListRecipe">add Recipe</string>
 </resources>
