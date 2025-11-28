@@ -18,6 +18,8 @@ class RecipeController(private val context: Context) {
         }
     }
 
+    fun getRecipe() = dataManager.getAll()
+
     fun updateRecipe(recipe: Recipe) {
         try {
             dataManager.update(recipe)

@@ -133,6 +133,23 @@
                 android:inputType="textEmailAddress" />
         </TableRow>
 
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/btnSelectPicture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+            <ImageView
+                android:id="@+id/imgPhoto"
+                android:layout_width="211dp"
+                android:layout_height="79dp"
+                tools:srcCompat="@tools:sample/avatars" />
+        </TableRow>
+
     </TableLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

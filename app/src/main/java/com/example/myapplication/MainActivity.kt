@@ -7,7 +7,6 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.myapplication.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,6 +22,12 @@ class MainActivity : AppCompatActivity() {
         btnMain.setOnClickListener(View.OnClickListener{ view->
             Util.Util.openActivity(this
                 , Activity_agregar_receta::class.java)
+        })
+
+        val btnPersonList_main = findViewById<Button>(R.id.RecipeList_main)
+        btnPersonList_main.setOnClickListener(View.OnClickListener{ view->
+            Util.Util.openActivity(this
+                , activity_recipe_list::class.java)
         })
 
     }
