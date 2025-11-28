@@ -22,4 +22,5 @@
     <string name="TextNo">No</string>
     <string name="TextTitleDialogQuestion">Confirmación</string>
     <string name="btnListRecipe">Agregar Recetas</string>
+    <string name="btnListaMain">Listas Recetas</string>
 </resources>
