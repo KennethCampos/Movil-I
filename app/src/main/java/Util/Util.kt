@@ -12,6 +12,7 @@ import java.time.format.DateTimeFormatter
 import java.util.Date
 import java.util.Locale
 
+const val EXTRA_RECETA_ID = "com.example.myapplication.PersonId"
 class Util {
     companion object{
         fun openActivity(context: Context
@@ -66,6 +67,13 @@ class Util {
             val alert = dialogBuilder.create()
             alert.setTitle(context.getString(R.string.TextTitleDialogQuestion))
             alert.show()
+        }
+
+        fun openActivity(context: Context
+                         , objClass: Class<*>, extraName: String="", value: String?=null){
+            val intent= Intent(context
+                , objClass).apply { putExtra(extraName, value)}
+            context.startActivity(intent)
         }
     }
 }

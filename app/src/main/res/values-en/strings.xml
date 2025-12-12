@@ -23,4 +23,5 @@
     <string name="TextNo">no</string>
     <string name="TextTitleDialogQuestion">confirm</string>
     <string name="btnListRecipe">add Recipe</string>
+    <string name="btnListaMain">list Recipe</string>
 </resources>
