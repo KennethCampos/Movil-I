@@ -41,7 +41,7 @@ class activity_recipe_list : AppCompatActivity(), OnItemClickListener {
     }
 
     override fun onItemClicked(recipe: Recipe) {
-        Util.openActivity(this, Activity_agregar_receta::class.java, EXTRA_RECETA_ID, recipe.ID)
+        Util.openActivity(this, activity_recipe_detail::class.java, EXTRA_RECETA_ID, recipe.ID)
         //Toast.makeText(this,"Person name ${person.FullName()} \n Phone:${person.Phone.toString()}"
         //    ,Toast.LENGTH_LONG).show()
         //Log.i("CONTACT", contact.FullName)
