@@ -1,5 +1,7 @@
 package com.example.myapplication
 
+import Entity.Recipe
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
@@ -30,5 +32,9 @@ class MainActivity : AppCompatActivity() {
                 , activity_recipe_list::class.java)
         })
 
+
+
+
     }
+
 }

@@ -11,10 +11,13 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Mi recetario"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        <activity
+            android:name=".activity_recipe_detail"
+            android:exported="false" />
         <activity
             android:name=".activity_recipe_list"
             android:exported="false" />
