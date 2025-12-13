@@ -5,6 +5,7 @@ import Entity.Recipe
 import Util.EXTRA_RECETA_ID
 import android.annotation.SuppressLint
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
@@ -54,5 +55,20 @@ class activity_recipe_detail : AppCompatActivity() {
         recipe.Photo?.let {
             imgPhoto.setImageBitmap(it)
         }
+
+        val btnEdit = findViewById<Button>(R.id.btnEditRecipe)
+
+
+        btnEdit.setOnClickListener {
+            if (id != null) {
+                Util.Util.openActivity(
+                    this,
+                    Activity_agregar_receta::class.java,
+                    EXTRA_RECETA_ID,
+                    id
+                )
+            }
+        }
+
     }
 }
